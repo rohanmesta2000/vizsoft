@@ -2,7 +2,7 @@ import 'dart:io';
 
 void main() {
   
-  print('Welcome to the Basic Calculator!');
+  print('Welcome to the Basic Calculator');
 
   print('Enter the first number:');
   double? num1 = double.tryParse(stdin.readLineSync()!);
